@@ -1,45 +1,59 @@
-# 🪐ZeroPoint
-A free, new-user-friendly website starter project designed to walk you through creating, editing, and publishing any web project; from a personal blog, to a company website!
+# startingfromzero.com
+This site uses [Eleventy](https://www.11ty.dev), [GitHub](https://github.com), and [Netlify](https://netlify.com).
 
-Read more at [https://getzeropoint.com](https://getzeropoint.com)!
+# Start creating your site
+Create and edit your site **right from this readme file!**.
 
-## What is ZeroPoint?
-### For new users
-_ZeroPoint_ is a free, new-user-friendly website starter designed to walk you through creating and publishing a fast, secure web project using modern tools and technology. ZeroPoint makes it easy to "get up to zero" and start building your site.
+## Step 1: Creating and editing site pages and content
 
-### For experienced developers
-_ZeroPoint_ is a modern, opinionated, bare-bones Jamstack starter using Eleventy to get "up to zero" on a project quickly and easily.
-Why you might choose _ZeroPoint_ as your Jamstack starter:
-* Powered by Eleventy, which [rocks](https://11ty.rocks)!
-* No CSS frameworks or libraries; use whatever you like best
-* GitHub Action replaces the ZeroPoint name throughout the site with your project's name!
-* Custom generated project-specific [readme file](https://github.com/MWDelaney/ZeroPoint/blob/master/README.ZeroPoint.md) to help you take the next steps and launch your project!
-* Sass for CSS
-* Webpack for Javascript
-* Browsersync to preview your work
+### Pages
+Create your site's main content! Pages can be written in HTML or [Markdown](https://www.markdownguide.org/basic-syntax/)!
+* [Edit the homepage](https://github.com/MWDelaney/startingfromzero.com/edit/master/src/pages/index.md)
+* [Create a new page](https://github.com/MWDelaney/startingfromzero.com/new/master/?filename=/src/pages/&value=---%0Atitle%3A%20Enter%20page%20title%20here%0A---)
 
- ## Get started: Use This Template!
-<details open>
- <summary>Right from this README</summary>
- 
- ###  Create a new project using ZeroPoint and add it to your GitHub account!
- [Click here to use this template](https://github.com/MWDelaney/ZeroPoint/generate)
- </details>
+Or edit your entire site in a web-based editor by [clicking here](https://github.dev/MWDelaney/startingfromzero.com/). Your changes will be automatically saved to this GitHub repository and published to your site.
 
-<details>
- <summary>With GitHub CLI (https://cli.github.com)</summary>
+<!--
 
- ### Get started from your command line
- ```sh
-  gh repo create example.com --template MWDelaney/ZeroPoint
- ```
-</details>
+---
+#### Posts
+Blog posts
+* [Create a new post](https://github.com/MWDelaney/startingfromzero.com/new/master/?filename=/src/posts/&value=----%0Atitle%3A%20%22Enter%20post%20title%22%0Adate%3A%20%222025-01-01%0A---)
 
-# Get to Know ZeroPoint
-Ready to go deeper? Here's how ZeroPoint is laid out:
+-->
+
+
+## Step 2: Look and Feel
+
+### Navigation
+Your site's navigation is how your users will get around! Edit the site's navigation menu in [JSON format](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)!
+* [Edit the navigation](https://github.com/MWDelaney/startingfromzero.com/edit/master/src/data/navigation.json)
+
+### Styles
+Colors, spacing, and fonts, oh my! You can edit your branding and styles here using CSS, SCSS, and CSS variables! Remember adding styles on MySpace? Same thing!
+* [Edit your branding](https://github.com/MWDelaney/startingfromzero.com/edit/master/src/assets/styles/_branding.scss)
+* [Edit your overall styles](https://github.com/MWDelaney/startingfromzero.com/edit/master/src/assets/styles/styles.scss)
+
+Learning CSS can be daunting but there are a ton of useful resources on the web. Check out [SmolCSS](https://smolcss.dev) to get started!
+
+### Javascript
+**Optional!** Add javascript functionality to your site
+* [Add Javascript](https://github.com/MWDelaney/startingfromzero.com/edit/master/src/assets/scripts/main.js)
+
+## Step 3: Deploy startingfromzero.com!
+
+### Launch startingfromzero.com on Netlify for Free!
+
+Click here to launch your site on Netlify for free!
+
+![Deploy this site to Netlify](https://www.netlify.com/img/deploy/button.svg)
+
+---
+# Get to Know startingfromzero.com
+Ready to go deeper? Here's how startingfromzero.com is laid out:
 
 ```sh
-example.com                 # → Root of your ZeroPoint-based project
+example.com                 # → Root of your startingfromzero.com-based project
 ├── src/                    # → Source directory
 │   ├── assets/             # → Site assets
 │   │   ├── fonts/
@@ -60,7 +74,7 @@ example.com                 # → Root of your ZeroPoint-based project
 │       └── pages.json      # → Shared pages attributes
 ├── .eleventy.js            # → Core Eleventy config file
 ├── netlify.toml            # → Netlify deployment and plugin configuration (optional)
-├── README.template.md      # → ZeroPoint readme
+├── README.template               # → startingfromzero.com readme (automatically removed when this template is used)
 └── README.md               # → Your project's readme (automatically generated when this template is used)
 ```
 
